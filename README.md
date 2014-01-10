@@ -6,10 +6,7 @@ web app for [Pamex ©](http://hylasoftusa.com:8090/) using [angular](http://angu
 Set up
 -------------
 
-###On Windows
-
-Install [ruby](http://rubyinstaller.org/) and [nodejs](nodejs.org)
-Then you can install yeoman:
+Install [ruby](http://rubyinstaller.org/) and [nodejs](nodejs.org). After finishing the installation of nodejs you can install yeoman:
 
     npm install -g yo
 
