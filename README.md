@@ -25,3 +25,10 @@ Please refer to [this link](https://github.com/yeoman/generator-angular) to lear
 
 Building
 -------------
+
+Running `grunt` will run jshint, build the application in the dist folder and run the unit tests with karma. The dist folder is ready to be put in production or dev servers.
+
+Testing
+-------------
+
+Running `grunt test` will run the unit tests with karma.
