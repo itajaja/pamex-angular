@@ -12,9 +12,9 @@ angular.module('pamexAngularApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/operator', {
-        templateUrl: 'views/operator.html',
-        controller: 'OperatorCtrl'
+      .when('/operator/', {
+        templateUrl: 'views/operator/index.html',
+        controller: 'OperatorIndexCtrl'
       })
       .otherwise({
         redirectTo: '/'
