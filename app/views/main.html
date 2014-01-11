@@ -6,8 +6,8 @@
     <p>A sleek and fast Part Manufacturing Order Management for small to medium sized CNC-machining shops for easier shop management</p>
     <p><a class="btn btn-primary btn-lg" role="button" ng-click="toggleLearnMore()">Learn more &raquo;</a></p>
   </div>
-  <div ng-show="learnMore" class="container animate-show">
-    MOREMOREMOREMOREMOREMORE
+  <div class="container" collapse="!learnMore">
+    Welcome to the proof of concept demo of a Hyla Soft’s DNC extension Lite order managment system, based on Simatic IT. The system is designed to cover basic order management functionality for small to medium sized CNC-machining shops. It is based on a lightweight installation of Simatic IT using only the core components <span class="text-primary">POM</span> (Production Order Manager), <span class="text-primary">MM</span> (Material Manager), <span class="text-primary">BPM</span> (Business Process Modeler) and <span class="text-primary">DIS</span> (Data Integration Service). The system demonstrates integration to <span class="text-primary">Teamcenter</span> via <span class="text-primary">Shop Floor Connect</span>, the Siemens DNC solution, as well as <span class="text-primary">LMS/OEE</span> and tool management components of the Siemens portfolio.
   </div>
 </div>
 
@@ -30,21 +30,3 @@
     <h1>Contact us</h1>
   </div>
 </div>
-<style type="text/css">
-  .animate-show {
-  -webkit-transition:all EaseIn 0.1s;
-  transition:all EaseIn 0.1s;
-  height:40px;
-  opacity:1;
-}
-
-.animate-show.ng-hide-add,
-.animate-show.ng-hide-remove {
-  display:block!important;
-}
-
-.animate-show.ng-hide {
-  height:0;
-  opacity:0;
-}
-</style>
