@@ -4,9 +4,13 @@
     <h2>Manufacturing made easy</h2>
     <h3>Powered by SimaticIT&copy; Integrated to TeamCenter&copy; via ShopFloor Connect&copy;</h3>
     <p>A sleek and fast Part Manufacturing Order Management for small to medium sized CNC-machining shops for easier shop management</p>
-    <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+    <p><a class="btn btn-primary btn-lg" role="button" ng-click="toggleLearnMore()">Learn more &raquo;</a></p>
   </div>
+<div ng-show="learnMore" ng-animate="'box'">
+MOREMOREMOREMOREMOREMORE
 </div>
+</div>
+
 
 <div class="container">
   <h1>Features</h1>
@@ -26,3 +30,18 @@
     <h1>Contact us</h1>
   </div>
 </div>
+<style type="text/css">
+  .box-show-setup, .box-hide-setup {
+  -webkit-transition:all linear 0.3s;
+  -moz-transition:all linear 0.3s;
+  -ms-transition:all linear 0.3s;
+  -o-transition:all linear 0.3s;
+  transition:all linear 0.3s;
+}
+
+.box-show-setup { opacity:0; height: 0; }
+.box-show-setup.box-show-start { opacity:1; height: 100px; }
+
+.box-hide-setup { opacity:1; height: 0; }
+.box-hide-setup.box-hide-start { opacity:0; height: 100px; }
+</style>
